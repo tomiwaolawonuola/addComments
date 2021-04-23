@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  box-shadow: 0 2px 2px 2px rgb(0, 0, 0, 0.2);
+  transform: translateX(100%);
+  width: 30%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.container-title {
+  background: #1c3d62;
+  color: white;
+  padding-left: 1rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.comment-avatar {
+  width: 70px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+  left: 12px;
+}
+
+.comments {
+  display: flex;
+  border-bottom: 2px solid #1c3d62;
+  padding-top: 0.5rem;
+}
+
+.flex1 {
+  flex: 1;
+  position: relative;
+  left: 2rem;
+}
+
+h2 {
+  color: #1c3d62;
+}
+
+.form-container {
+  margin-top: 2rem;
+  place-items: center;
+  box-shadow: 0 2px 2px 2px rgb(0, 0, 0, 0.2);
+  transform: translateX(100%);
+  width: 30%;
+}
+
+form {
+  padding: 1rem;
+}
+
+.comment-new {
+  padding-top: 1rem;
+  display: flex;
+}
+
+.comment-new h2 {
+  position: relative;
+  left: 2rem;
+}
+
+textarea {
+  position: relative;
+  left: 5.5rem;
+  top: -2rem;
+}
+
+form input {
+  background: #1c3d62;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.3rem;
+  cursor: pointer;
+  outline: none;
+}
+
+form input:focus {
+  transform: scaleX(0.9);
+}
+
+p {
+  text-transform: capitalize;
+  color: #1c3d62;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 90%;
+    transform: translateX(1.5rem);
+  }
+  .form-container {
+    transform: translateX(1.5rem);
+    width: 90%;
+  }
+}

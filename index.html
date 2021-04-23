@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Comment Section</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="container-title">Comments</h1>
+      <div class="comments">
+        <div class="comment">
+          <img src="me.jpg" class="comment-avatar" />
+        </div>
+        <div class="flex1">
+          <h2>Tomiwa Tommy</h2>
+          <p>first Comment</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="comment-new">
+        <img src="me.jpg" class="comment-avatar" />
+        <h2>Tomiwa Tommy</h2>
+      </div>
+
+      <form id="form">
+        <textarea
+          id="input"
+          cols="35"
+          rows="5"
+          placeholder="enter comment"
+        ></textarea>
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
